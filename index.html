@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!doctype html>
+<html lang = "en">
+
+<head>
+    <meta charset = "utf-8">
+    <title>Memory Game</title>
+    <meta name = "description" content = "">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <link rel = "stylesheet prefetch" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Coda">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Exo:200">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+
+    <div class = "container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+
+        <section class = "score-panel">
+
+            <span class = "moves">0</span> Move(s)
+
+            <div class = "timer">
+            </div>
+
+            <div class = "restart" onclick = startGame()>
+                <i class = "fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <div>
+            <ul class = "fa stars">
+                <li><i class = "fa fa-star"></i></li>
+                <li><i class = "fa fa-star"></i></li>
+                <li><i class = "fa fa-star"></i></li>
+            </ul>
+        </div>
+        <ul class = "deck" id = "card-deck">
+            <li class = "card" type = "tumblr">
+                <i class = "fa fa-tumblr"></i>
+            </li>
+            <li class = "card" type = "instagram">
+                <i class = "fa fa-instagram"></i>
+            </li>
+            <li class = "card match" type = "youtube">
+                <i class = "fa fa-youtube-play"></i>
+            </li>
+            <li class = "card" type = "apple">
+                <i class = "fa fa-apple"></i>
+            </li>
+            <li class = "card" type = "windows">
+                <i class = "fa fa-windows"></i>
+            </li>
+            <li class = "card match" type = "youtube">
+                <i class = "fa fa-youtube-play"></i>
+            </li>
+            <li class = "card" type = "android">
+                <i class = "fa fa-android"></i>
+            </li>
+            <li class = "card" type = "reddit">
+                <i class = "fa fa-reddit"></i>
+            </li>
+            <li class = "card" type = "tumblr">
+                <i class = "fa fa-tumblr"></i>
+            </li>
+            <li class = "card" type = "linux">
+                <i class = "fa fa-linux"></i>
+            </li>
+            <li class = "card" type = "android">
+                <i class = "fa fa-android"></i>
+            </li>
+            <li class = "card" type = "linux">
+                <i class = "fa fa-linux"></i>
+            </li>
+            <li class = "card" type = "apple">
+                <i class = "fa fa-apple"></i>
+            </li>
+            <li class = "card" type = "reddit">
+                <i class = "fa fa-reddit"></i>
+            </li>
+            <li class = "card" type = "instagram">
+                <i class = "fa fa-instagram"></i>
+            </li>
+            <li class = "card" type = "windows">
+                <i class = "fa fa-windows"></i>
+            </li>
+        </ul>
+
+        <div id = "popup1" class = "overlay">
+            <div class = "popup">
+                <a class = "close" href = #>×</a><br>
+                <h2>Congratulations!!</h2>
+                <div class = "congratulations">
+                    You beat the game!
+                </div>
+                <div class = "gamestats">
+                    <p>You made <strong><span id = finalMove> </span></strong> moves </p>
+                    <p>in <strong><span id = totalTime> </span></strong> </p>
+                    <p>Rating: <span id = starRating></span></p>
+                </div>
+                <button id = "btn" onclick = "playAgain()">
+                    Play again?</a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footer" class="grid">
+        <div>UDACITY FEND MEMORY GAME</div>
+        <div>Project by Thomas Brown</div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
